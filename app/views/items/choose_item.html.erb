@@ -1,0 +1,5 @@
+<%= form_with url: "/specific_item", method: :get do |form| %>
+  <%= form.label :query, "Topic:" %>
+  <%= form.text_field :query %>
+  <%= form.submit "Search" %>
+<% end %>
